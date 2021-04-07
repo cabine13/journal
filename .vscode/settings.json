@@ -1,0 +1,47 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/ios": true,
+    "**/build": true,
+    "**/android": true,
+    "**/.dart_tool": true,
+    "**/.idea": true,
+    "**/.vscode": true,
+    "**/*.bat": true,
+    "**/README.md": true,
+    "**/pubspec.lock": true,
+    "**/journal.iml": true,
+    "**/.packages": true,
+    "**/.metadata": true,
+    "**/.gitignore": true,
+    "**/*.g.dart": true,
+    "**/*.freezed.dart": true
+  },
+  "explorerExclude.backup": null,
+  
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text",
+    "foreground": "orange",
+    
+    "opacity": 50,
+    "iconColour": "orange"
+},
+"todo-tree.highlights.customHighlight": {
+    "TODO": {
+        "icon": "alert",
+        "type": "line",
+		"gutterIcon": true
+    },
+    "FIXME": {
+        "foreground": "yellow",
+        "iconColour": "yellow",
+        "gutterIcon": true
+    }
+}
+}
+
